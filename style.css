@@ -1,26 +1,29 @@
 * {
     font-family: Helvetica;
     font-weight: 400;
-    text-align: center;
-    
+}
 
+.brushes, .frames, .paint {
+    display: inline-block;
+}
+
+heading {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 heading h1 {
     background-image: url("Media/pattern.webp");
-    width: 100%;
-    margin: auto;
     text-align: center;
     font-size: 100px;
     color: khaki;
-    
     font-weight: bold;
 }
 
 .link store {
     cursor: pointer;
     color: blue;
-
     font-weight: bold;
 }
 
@@ -36,6 +39,7 @@ heading h1 {
 
 .brushes-heading {
     background-color: mediumspringgreen;
+    max-width: 100%;
 }
 
 
