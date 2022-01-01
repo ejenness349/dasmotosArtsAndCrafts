@@ -3,10 +3,6 @@
     font-weight: 400;
 }
 
-.brushes, .frames, .paint {
-    display: inline-block;
-}
-
 heading {
     width: 100%;
     padding: 0;
@@ -15,10 +11,40 @@ heading {
 
 heading h1 {
     background-image: url("Media/pattern.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     font-size: 100px;
     color: khaki;
     font-weight: bold;
+}
+
+.main {
+    position: fixed;
+    text-align: center;
+}
+
+#main-image {
+    float: center;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.brushes, .paint, .frames {
+    width: 30%;
+    display: inline-block;
+}
+
+.brushes {
+    align-items: left;
+}
+
+.frames {
+    align-items: center;
+}
+
+.paint {
+    align-items: right;
 }
 
 .link store {
@@ -39,7 +65,6 @@ heading h1 {
 
 .brushes-heading {
     background-color: mediumspringgreen;
-    max-width: 100%;
 }
 
 
