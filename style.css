@@ -1,0 +1,48 @@
+* {
+    font-family: Helvetica;
+    font-weight: 400;
+    text-align: center;
+    
+
+}
+
+heading h1 {
+    background-image: url("Media/pattern.webp");
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 100px;
+    color: khaki;
+    
+    font-weight: bold;
+}
+
+.link store {
+    cursor: pointer;
+    color: blue;
+
+    font-weight: bold;
+}
+
+.main h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.main h3 {
+    font-weight: bold;
+}
+
+.brushes-heading {
+    background-color: mediumspringgreen;
+}
+
+
+.frames-heading {
+    background-color: lightcoral;
+}
+
+.paint-heading {
+    background-color: skyblue;
+}
