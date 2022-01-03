@@ -4,8 +4,8 @@
 }
 
 html {
-    background-color:black;
-    overflow: scroll;
+    background-color: #C2CAD0;
+    overflow: auto;
 }
 
 heading {
@@ -18,7 +18,7 @@ heading h1 {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     font-size: 50px;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
@@ -31,13 +31,17 @@ heading h1 {
     float: center;
     border-radius: 10px;
     border: 3px solid black;
+    width: 95%;
 }
 
 .brushes, .paint, .frames {
     width: 30%;
     display: inline-block;
+}
+
+.main .information {
+    background-color: #7E685A;
     border-radius: 10px;
-    background-color: white;
 }
 
 .brushes {
@@ -66,6 +70,8 @@ heading h1 {
     color: white;
     font-size: 32px;
     font-weight: bold;
+    background-color:#E7717D; 
+    border-radius: 10px;
 }
 
 .main h3 {
@@ -73,18 +79,21 @@ heading h1 {
 }
 
 .brushes-heading {
-    background-color: mediumspringgreen;
+    background-color:  #afd275;
 }
 
 
 .frames-heading {
-    background-color: lightcoral;
+    background-color:  #afd275;
 }
 
 .paint-heading {
-    background-color: skyblue;
+    background-color:  #afd275;
 }
 
 @media only screen and (max-width: 400px) {
-    
+    .brushes, .paint, .frames {
+        width: 30%;
+        display: block;
+    }
 }
